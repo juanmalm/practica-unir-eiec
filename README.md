@@ -14,15 +14,16 @@ python3 main.py <filename> <dup>
   
 ## Ejemplo practico de uso
 Se generara un fichero llamado "palabras.txt" dentro de la carpeta con el siguiente contenido por linea:\
-	prueba\
-	de\
-	script\
-	de python\
+	&emsp; *prueba*\
+	&emsp;*de*\
+	&emsp;*script*\
+	&emsp;*de*\
+	&emsp;*python*
 
 Si se ejecuta el comando "python3 main.py palabras.txt yes" el script no quitara las palabras duplicadas y devolvera lo siguiente:\
-	*Se leerán las palabras del fichero palabras.txt*\
-	*['de', 'prueba', 'python', 'script']*\
+	&emsp;*Se leerán las palabras del fichero palabras.txt*\
+	&emsp;*['de', 'prueba', 'python', 'script']*\
 
 Si se ejecuta el comando "python3 main.py palabras.txt no" el script quitara las palabras duplicadas y devolvera lo siguiente:\
-	*Se leerán las palabras del fichero palabras.txt*\
-	*['de', 'de', 'prueba', 'python', 'script']*\
+	&emsp;*Se leerán las palabras del fichero palabras.txt*\
+	&emsp;*['de', 'de', 'prueba', 'python', 'script']*\
