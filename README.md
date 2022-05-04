@@ -26,4 +26,4 @@ Si se ejecuta el comando "python3 main.py palabras.txt yes" el script no quitara
 
 Si se ejecuta el comando "python3 main.py palabras.txt no" el script quitara las palabras duplicadas y devolvera lo siguiente:\
 	&emsp;*Se leerán las palabras del fichero palabras.txt*\
-	&emsp;*['de', 'de', 'prueba', 'python', 'script']*\
+	&emsp;*['de', 'de', 'prueba', 'python', 'script']*\ 
