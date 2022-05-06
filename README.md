@@ -14,3 +14,19 @@ python3 main.py <filename> <dup>
 
 ## Ejemplo funcionalidad "Fichero por línea de comandos"
 make filename=palabras.txt
+  
+## Ejemplo practico de uso
+Se generara un fichero llamado "palabras.txt" dentro de la carpeta con el siguiente contenido por linea:\
+	&emsp; *prueba*\
+	&emsp;*de*\
+	&emsp;*script*\
+	&emsp;*de*\
+	&emsp;*python*
+
+Si se ejecuta el comando "python3 main.py palabras.txt yes" el script quitara las palabras duplicadas y devolvera lo siguiente:\
+	&emsp;*Se leerán las palabras del fichero palabras.txt*\
+	&emsp;*['de', 'prueba', 'python', 'script']*\
+
+Si se ejecuta el comando "python3 main.py palabras.txt no" el script no quitara las palabras duplicadas y devolvera lo siguiente:\
+	&emsp;*Se leerán las palabras del fichero palabras.txt*\
+	&emsp;*['de', 'de', 'prueba', 'python', 'script']*\ 
